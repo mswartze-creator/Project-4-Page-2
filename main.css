@@ -45,50 +45,27 @@ article p:last-of-type {
 	}
 
 
-
-/* Modifications to Page One / Fixed Position Layout */
-
-aside.one {
-	position: fixed;
-	left: 0;
-	width: 160px;
-	padding: 0 .4em;
-	}
-
-div.articles1 {
-	position: fixed;
-	left: 160px;
-	height: 400px;
-	width: 750px;
-	padding: 0 .2em;
-	overflow: scroll;
-	}
-
-img.body1 {
-	width: 300px;
-	}
-
 /* Modifications to Page Two / Floating Position Layout */
 
-aside.two {
+aside {
 	float: left;
 	min-width: 130px;
 	}
 
-div.articles2 {
+div.articles {
 	min-height: 400px;
 	min-width: 350px;
 	padding: 0 30px;
 	overflow: scroll;
 	}
 	
-.left2 {
+left {
 	float: left;
 	margin: 10px 35px 10px 0px;
 	width: 170px;
 	}
 
-.right2 {
+right {
 	float: right;
 	margin: 10px 0px 10px 35px;
 	width: 170px;
